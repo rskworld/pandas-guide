@@ -135,6 +135,8 @@ jupyter notebook
 
 ### 📄 License
 
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 This project is provided as educational material for learning Pandas data manipulation.
 
 ---
