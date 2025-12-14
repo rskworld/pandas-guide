@@ -1,0 +1,15 @@
+# Sample Data File
+# Author: RSK World
+# Website: https://rskworld.in
+# Email: help@rskworld.in
+# Phone: +91 93305 39277
+Name,Age,City,Salary,Department
+Alice,25,New York,50000,IT
+Bob,30,London,60000,HR
+Charlie,35,Tokyo,70000,IT
+David,28,Paris,55000,Finance
+Eve,32,Sydney,65000,IT
+Frank,45,Berlin,80000,HR
+Grace,29,Mumbai,58000,Finance
+Henry,38,London,72000,IT
+

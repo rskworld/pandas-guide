@@ -1,0 +1,17 @@
+# Sales Data File
+# Author: RSK World
+# Website: https://rskworld.in
+# Email: help@rskworld.in
+# Phone: +91 93305 39277
+Date,Product,Region,Sales,Quantity
+2024-01-01,Product A,North,10000,50
+2024-01-01,Product B,North,15000,75
+2024-01-02,Product A,South,12000,60
+2024-01-02,Product B,South,18000,90
+2024-01-03,Product A,North,11000,55
+2024-01-03,Product B,South,16000,80
+2024-01-04,Product A,East,13000,65
+2024-01-04,Product B,West,17000,85
+2024-01-05,Product A,North,10500,52
+2024-01-05,Product B,South,19000,95
+

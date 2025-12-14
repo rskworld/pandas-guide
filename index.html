@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<!--
+Author: RSK World
+Website: https://rskworld.in
+Email: help@rskworld.in
+Phone: +91 93305 39277
+Description: Pandas Data Manipulation Guide - Demo Page
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pandas Data Manipulation Guide - RSK World</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        
+        .content {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #764ba2;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .notebook-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .notebook-list li {
+            background: #f8f9fa;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #667eea;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .notebook-list li:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .notebook-list li strong {
+            color: #764ba2;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .feature-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .feature-card h3 {
+            margin-bottom: 10px;
+        }
+        
+        .author-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        
+        .author-info a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .author-info a:hover {
+            text-decoration: underline;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-right: 10px;
+        }
+        
+        .tech-stack {
+            margin-top: 20px;
+        }
+        
+        .tech-stack span {
+            display: inline-block;
+            background: #e9ecef;
+            padding: 8px 15px;
+            margin: 5px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🐼 Pandas Data Manipulation Guide</h1>
+            <p class="subtitle">Comprehensive guide to data manipulation with Pandas DataFrames</p>
+            <div>
+                <span class="badge">Beginner</span>
+                <span class="badge">Python</span>
+                <span class="badge">Data Science</span>
+            </div>
+        </header>
+        
+        <div class="content">
+            <div class="section">
+                <h2>📚 Overview</h2>
+                <p>This project provides a comprehensive guide to Pandas, the essential Python library for data manipulation. It covers DataFrame operations, data cleaning techniques, data transformation, filtering, merging, grouping, pivoting, and time series operations. Perfect for mastering data wrangling and preprocessing.</p>
+            </div>
+            
+            <div class="section">
+                <h2>📖 Notebooks</h2>
+                <ul class="notebook-list">
+                    <li>
+                        <strong>01_dataframe_basics.ipynb</strong>
+                        Introduction to Pandas DataFrames - creating DataFrames, understanding structure, and basic operations.
+                    </li>
+                    <li>
+                        <strong>02_data_indexing.ipynb</strong>
+                        DataFrame indexing and selection - using loc, iloc, and other selection techniques.
+                    </li>
+                    <li>
+                        <strong>03_data_cleaning.ipynb</strong>
+                        Data cleaning and preprocessing - handling missing values, removing duplicates, and data type conversion.
+                    </li>
+                    <li>
+                        <strong>04_data_transformation.ipynb</strong>
+                        Data transformation techniques - applying functions, string operations, and data reshaping.
+                    </li>
+                    <li>
+                        <strong>05_filtering.ipynb</strong>
+                        Data filtering - conditional filtering, query() method, and advanced filtering techniques.
+                    </li>
+                    <li>
+                        <strong>06_merging_joining.ipynb</strong>
+                        Merging and joining datasets - inner, left, right, outer joins, and concatenation.
+                    </li>
+                    <li>
+                        <strong>07_groupby_aggregation.ipynb</strong>
+                        GroupBy and aggregation operations - grouping data and performing aggregations.
+                    </li>
+                    <li>
+                        <strong>08_advanced_operations.ipynb</strong>
+                        Advanced Pandas operations - pivot tables, time series, and cross tabulation.
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>✨ Key Features</h2>
+                <div class="features">
+                    <div class="feature-card">
+                        <h3>DataFrame Operations</h3>
+                        <p>Comprehensive guide to creating, manipulating, and indexing DataFrames</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Data Cleaning</h3>
+                        <p>Techniques for handling missing values, duplicates, and data inconsistencies</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Data Transformation</h3>
+                        <p>String operations, date/time transformations, and data reshaping</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Filtering & Merging</h3>
+                        <p>Advanced filtering techniques and joining multiple datasets</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>GroupBy Operations</h3>
+                        <p>Grouping data and performing complex aggregations</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Advanced Features</h3>
+                        <p>Pivot tables, time series operations, and cross tabulation</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>🛠️ Technologies</h2>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>Pandas</span>
+                    <span>NumPy</span>
+                    <span>Jupyter Notebook</span>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>📁 Project Structure</h2>
+                <pre style="background: #f8f9fa; padding: 15px; border-radius: 5px; overflow-x: auto;">
+pandas-guide/
+├── README.md
+├── requirements.txt
+├── index.html
+├── notebooks/
+│   ├── 01_dataframe_basics.ipynb
+│   ├── 02_data_indexing.ipynb
+│   ├── 03_data_cleaning.ipynb
+│   ├── 04_data_transformation.ipynb
+│   ├── 05_filtering.ipynb
+│   ├── 06_merging_joining.ipynb
+│   ├── 07_groupby_aggregation.ipynb
+│   └── 08_advanced_operations.ipynb
+├── data/
+│   ├── sample_data.csv
+│   ├── sales_data.csv
+│   └── employees.csv
+└── scripts/
+    └── examples.py</pre>
+            </div>
+            
+            <div class="author-info">
+                <h3>About the Author</h3>
+                <p><strong>RSK World</strong></p>
+                <p>
+                    <a href="https://rskworld.in" target="_blank">Website: https://rskworld.in</a> |
+                    <a href="mailto:help@rskworld.in">Email: help@rskworld.in</a> |
+                    Phone: +91 93305 39277
+                </p>
+                <p style="margin-top: 10px; color: #666;">
+                    This project is provided as educational material for learning Pandas data manipulation.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
